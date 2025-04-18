@@ -1,0 +1,25 @@
+[project]
+
+requires-python = ">=3.13.2"
+name = 'rl-course'
+version = '0.0.1'
+dependencies = [
+    "ale-py>=0.10.2",
+    "graphviz>=0.20.3",
+    "gym>=0.26.2",
+    "gymnasium[accept-rom-license,atari,box2d,classic-control,other,toy-text]==1.1.1",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.6",
+    "joblib>=1.4.2",
+    "lightning>=2.5.0.post0",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.3",
+    "opencv-python>=4.11.0.86",
+    "pygame>=2.6.1",
+    "scikit-learn>=1.6.1",
+    "swig>=4.3.0",
+    "tensorboard>=2.19.0",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.1",
+]
